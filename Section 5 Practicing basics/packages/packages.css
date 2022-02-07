@@ -1,0 +1,73 @@
+main {
+    padding-top: 30px;
+}
+
+.section {
+    width: 85%;
+    margin: 20px 0;
+    border: darkgreen solid 2px;
+    border-left: none;
+}
+
+.section:hover,
+.section:active,
+#free:hover {
+    box-shadow: 2px 2px 4px rgb(0, 0, 0, 0.6);
+    border-color: salmon;
+}
+
+.section a {
+    text-decoration: none;
+    color: black;
+    display: block;
+    padding: 32px;
+}
+
+.section__title {
+    font-size: 24px;
+}
+
+.section__info {
+    color: grey;
+}
+
+.section__comment {
+    padding: 16px;
+    border: darkgreen 1px solid;
+    font-size: 20px;
+    color: darkgreen;
+    background: white;
+}
+
+#plus {
+    background: rgba(144, 238, 144, 0.904);
+
+}
+
+#free {
+    background: rgb(202, 245, 183);
+    float: right;
+    border-right: none;
+    border-left: 2px solid darkgreen;
+    text-align: right;
+}
+
+.empty-class {
+    clear: both;
+}
+
+#premium {
+    background: rgb(8, 32, 6);
+}
+
+#premium .section__title {
+    color: white;
+}
+
+#premium .section__info {
+    color: grey;
+}
+
+#premium .section__comment {
+    color: grey;
+}

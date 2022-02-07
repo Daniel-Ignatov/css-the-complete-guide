@@ -1,0 +1,28 @@
+* {
+    font-family: sans-serif;
+}
+
+.code-green {
+    color: green;
+}
+
+#assignment-instructions {
+    color: gold;
+    font-family: sans-serif;
+}
+
+code {
+    font-family: monospace;
+}
+
+/* The "n" means apply this to every element, the "+2" means "start at the 2nd element" */
+/* li:nth-child(n+2){ */
+li+li {
+    color: white;
+    background: black;
+}
+
+ol>li {
+    color: white;
+    background: black;
+}

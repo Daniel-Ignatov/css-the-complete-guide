@@ -1,0 +1,25 @@
+body,
+html {
+    height: 100%;
+}
+
+.box {
+    background: blue;
+    padding: 2px 4px 8px 22px;
+    margin: 20px 4px 12px 2px;
+    border: 5px dashed;
+    height: 100px;
+    width: 100px;
+    display: inline-block;
+}
+
+.first {
+    height: 300px;
+    width: 50%;
+    visibility: hidden;
+}
+
+div:last-of-type:hover {
+    background: red;
+    color: white;
+}
