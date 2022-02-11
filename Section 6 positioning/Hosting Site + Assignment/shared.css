@@ -8,10 +8,12 @@ body {
 }
 
 .main-header {
-    width: 100%;
+     width: 100%;
     position: fixed;
-    background: rgba(0, 168, 0, 0.692);
-    padding: 8px 14px;
+    top: 0;
+    left: 0;
+    background: #2ddf5c;
+    padding: 8px 16px;
     z-index: 1;
 }
 .main-nav__item{
